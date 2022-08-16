@@ -39,7 +39,7 @@
       <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify.</p>
     </div>
     <div class="lg:w-1/2 md:w-2/3 mx-auto">
-    <form method="POST">
+    <form action="<?php echo htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
       <div class="flex flex-wrap -m-2">
       
       
