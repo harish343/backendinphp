@@ -19,7 +19,8 @@ while($res = mysqli_fetch_array($query)){
     <td><?php echo $res['email']; ?></td>
     <td><?php echo $res['refer']; ?></td>
     <td><?php echo $res['jobpost']; ?></td>
-    <td><a href="update.php?id=<?php echo $res['id'];?>">Delete</a></td>
+    <td><a href="update.php?id=<?php echo $res['id'];?>">Update</a></td>
+    <td><a href="delete.php?id=<?php echo $res['id'];?>">Delete</a></td>
   </tr>
 
 </table>
