@@ -105,11 +105,11 @@ if(isset($_POST['submit'])){
   $name = $_POST['name'];
   $degree = $_POST['degree'];
   $mobile = $_POST['mobile'];
-  $email = $_POST['Email'];
+  $email = $_POST['email'];
   $refer = $_POST['refer'];
   $jobprofile=$_POST['jobpost'];
   // $insertquery = "INSERT INTO `jobregistration`( `name`, `degree`, `mobile`, `refer`, `email`, `jobpost`) VALUES ('[$name]','[-2]','[value-3]','[value-4]','[value-5]','[value-6]','[value-7]')"
-  $insertquery = "insert into jobregistration(name,degree,mobile,email,refer,jobpost) values('$name','$degree','$mobile','$refer','$email','$jobprofile')" ;
+  $insertquery = "insert into jobregistration(name,degree,mobile,email,refer,jobpost) values('$name','$degree','$mobile','$email','$refer','$jobprofile')" ;
   $res = mysqli_query($conn,$insertquery);
   if($res){
     ?>
